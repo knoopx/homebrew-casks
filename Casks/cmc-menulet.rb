@@ -1,9 +1,9 @@
 
 cask 'cmc-menulet' do
-  version '0.1.0'
-  sha256 'e1d74acd2c77a911a1ae92c7037fc5aa50eee5857ba7c2851ab1de1211468f97'
+  version '1.0.4'
+  sha256 'bf4cea828a2dd7c932493e26bbbe11603288a81aab1d9334b045a4f82d82198c'
 
-  url 'https://github.com/knoopx/cmc-menulet/releases/download/0.1.0/CoinMarketCap.zip'
+  url "https://github.com/knoopx/cmc-menulet/releases/download/v#{version}/CoinMarketCap-#{version}-mac.zip"
   name 'CoinMarketCap'
   homepage 'https://github.com/knoopx/cmc-menulet'
 
